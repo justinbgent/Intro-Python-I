@@ -13,7 +13,7 @@ a = [2, 4, 1, 7, 9, 6]
 
 # Output the second element: 4:
 print(a[1:2]) # my preferred way: print(a[1])
-
+            # a[{include from this index onward}:{exclude from this index onward}]
 # Output the second-to-last element: 9
 print(a[4:5]) # my preferred way: print(a[-2])
 
